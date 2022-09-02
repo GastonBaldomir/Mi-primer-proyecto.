@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Las Grutas MyA.</title>
     <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <meta name="keywords" content="hospedaje, alquileres, las grutas, playa, sur, monoambientes, vacaciones.">
 </head>
 <body>
-    <nav>
+    <nav class="transitionNav">
         <a href="index.html">
-            <img src="imagenes/logo.jpg" alt="Logo de la empresa, se ve un fondo blanco y celeste, con el texto Las Grutas MyA" class="">
+            <img src="imagenes/logo.jpg" alt="Logo de la empresa, se ve un fondo blanco y celeste, con el texto Las Grutas MyA" class="transitionLogo">
         </a>
         <ul>
             <li><a href="index.html">Inicio</a></li>
@@ -35,8 +36,8 @@
             <p>-Television con Cable codificado.</p>
         </div>
         <section>  
-            <img src="imagenes/monoam (1)rec.jpg" alt="">
-            <img src="imagenes/monoam(2)rec.jpg" alt="">
+            <img src="imagenes/monoam (1)rec.jpg" alt="" class="wow bounce" data-wow-duration="1s" >
+            <img src="imagenes/monoam(2)rec.jpg" alt="" class="wow bounce" data-wow-duration="1s">
         </section>
     </main>
     <footer>
@@ -46,6 +47,10 @@
             <li><a target="_blank" href="https://api.whatsapp.com/send?phone=5492474224469"><img src="imagenes/logos/whatsapp.png" alt="se uestra el logo de whatsapp, una viñeta con un telefono adentro."></a></li>
             <li><a target="_blank" href="mailto:marcelocabitto@gmail.com"><img src="imagenes/logos/email.png" alt="Se muestra una carta o un sobre, haciendo referencia al correo electronico."></a></li>
         </ul>
-    </footer>
+    </footer>    
 </body>
+<script src="js/wow.min.js"></script>
+            <script>
+              new WOW().init();
+            </script>
 </html>
