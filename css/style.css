@@ -2,8 +2,7 @@
 html{
     font-size: 62.5%;
     font-family: 'Montserrat', 'sans-serif';
-    background: rgb(200,224,250);
-    background: linear-gradient(0deg, rgba(200,224,250,1) 0%, rgba(250,245,185,1) 100%);
+    
 }
 *{
     margin: 0%;
@@ -37,6 +36,10 @@ nav{
             color: aliceblue;
             margin: 25px;
         }
+    #boton{
+        font-size: 25px;
+        border: solid 2px aliceblue;
+    }
 
 /* Header */
 
