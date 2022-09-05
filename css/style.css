@@ -2,7 +2,8 @@
 html{
     font-size: 62.5%;
     font-family: 'Montserrat', 'sans-serif';
-    background-color: #f9f8d7
+    background: rgb(200,224,250);
+    background: linear-gradient(0deg, rgba(200,224,250,1) 0%, rgba(250,245,185,1) 100%);
 }
 *{
     margin: 0%;
@@ -298,3 +299,53 @@ main div img{
         font-size: 3rem;
     }
 }
+
+/* transiciones */
+
+
+.bg-Fondo{
+    background: rgb(200,224,250);
+    background: linear-gradient(0deg, rgba(200,224,250,1) 0%, rgba(250,245,185,1) 100%);
+}
+.transitionNav{
+    background: rgb(130,195,231);
+background: linear-gradient(90deg, rgba(130,195,231,1) 4%, rgba(32,14,144,1) 100%);
+}
+
+.transitionLogo:hover{
+    transform: translateX(25px);
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+
+
+/* animaciones */
+@keyframes texto {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+ h1{
+    animation-name: texto;
+    animation-duration: 2s;
+ }
+ h2{
+    animation-name: texto;
+    animation-duration: 3s;
+ }
+ p{
+    animation-name: texto;
+    animation-duration: 4s;
+ }
+ iframe{
+    animation-name: texto;
+    animation-duration: 6s;
+ }
+ form{
+    animation-name: texto;
+    animation-duration: 6s;
+ }
+ div div img{
+    animation-name: texto;
+    animation-duration: 6s;
+ }
