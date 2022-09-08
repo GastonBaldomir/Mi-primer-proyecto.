@@ -157,53 +157,6 @@ main div img{
 /* Contacto */ 
 
 
-#form{
-    display: flex;  
-    flex-direction: column;
-    align-items: center;
-    margin: 60px;
-    font-size: 15px;
-}
-#iframe{
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
-}
-
-.gridContacto{
-    display: grid;  
-    grid-template-columns: 35% 35% 30%;
-    grid-template-rows: auto 70px auto auto auto;
-    grid-template-areas:
-    "nav nav nav"
-    ". main ."
-    "header main aside"
-    "header main div"
-    "footer footer footer";
-}
-
-.nav{
-    grid-area: nav;
-}
-.header{
-    grid-area: header;
-}
-.main{
-    grid-area: main;
-}
-.aside{
-    grid-area: aside;
-    margin: 20px;
-}
-.footer{
-    grid-area: footer;
-}
-.div{
-    grid-area: div;
-    display: flex;
-    justify-content: center;
-    margin: 25px;
-}
 /* responsive */
 
 @media screen and (max-width: 910px){
@@ -212,18 +165,7 @@ main div img{
         flex-direction:column;
         align-items: center;
     }
-    .gridContacto{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: auto 70px auto auto auto auto;
-        grid-template-areas: 
-        "nav nav"
-        "main header"
-        "main header"
-        "aside div"
-        "footer footer";
-    }
-}
+   
 @media screen and (max-width: 880px){
     main section{
         display: flex;
@@ -253,9 +195,20 @@ main div img{
         justify-content: center;
         align-content: center;
     }
+    
+    #mainContacto{
+        display: flex;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    };
+
+
+    
 }
 @media screen and (max-width: 620px){
-    .gridContacto{
+    /* .gridContacto{
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: auto auto auto auto auto auto;
@@ -265,7 +218,7 @@ main div img{
         "main"
         "div"
         "aside"
-        "footer";
+        "footer"; */
     }
 }
 @media screen and (max-width: 500px){
@@ -351,4 +304,73 @@ background: linear-gradient(90deg, rgba(130,195,231,1) 4%, rgba(32,14,144,1) 100
  div div img{
     animation-name: texto;
     animation-duration: 6s;
+ }
+ /* Formulario */
+
+ #formulario{
+    font-size: 15px;
+    margin-top: 80px;
+    flex-wrap: wrap;
+ }
+
+ #botonEnviar{
+    margin-top: 5px;
+    
+ }
+ #iframe{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    width: auto;
+ }
+ 
+ #classContacto{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+ }
+ @media screen and (max-width: 680px){
+    #classContacto{
+        display: flex;
+        flex-direction: column;
+    }
+
+ }
+ .headerContacto{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #0e485a;
+ }
+ #mainContacto{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin: 15px;
+ }
+ @media screen and (max-width: 995px){
+   #mainContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+    align-items: center;
+   }
+ }
+ .h2Contacto{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0%;
+ }
+ .bg-Button{
+    background-color: whitesmoke;
+    border: black solid 1px;
+ 
  }
