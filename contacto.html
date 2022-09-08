@@ -12,8 +12,7 @@
     <meta name="keywords" content="hospedaje, alquileres, las grutas, playa, sur, monoambientes, vacaciones.">
 </head>
 <body class="bg-Fondo">
-    <div class="gridContacto">
-        <nav class="navbar navbar-expand-lg transitionNav nav">
+    <nav class="navbar navbar-expand-lg transitionNav">
             <div class="container-fluid">
               <a href="index.html"><img src="imagenes/logo.jpg" alt="Logo de la empresa, se muestra un fondo celeste y blanco con las letras MyA." class="transitionLogo"></a>
               <button id="boton" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,40 +37,72 @@
                   </li>       
               </div>
             </div>
-          </nav>
+    </nav>
+    <header class="headerContacto">
+      <h1>Dejanos tu Mensaje.</h1>
+    </header>  
+  <main id="mainContacto"> 
+      <div class="container-fluid">  
+        <section class="row">
+        
+          <div class="col-sm-12 col-md-6 col-lg-7 col-xl-8" id="formulario">
+            <h2 class="h2Contacto bg-Button">Hace tu Reserva.</h2>
+            <div class="input-group mb-3">
+              <span class="input-group-text">Nombre y Apellido.</span>
+              <input type="text" aria-label="First name" class="form-control">
+            </div>
+            <div class="input-group mb-3">
+              <label class="input-group-text" for="inputGroupSelect01">Instalaciones.</label>
+              <select class="form-select" id="inputGroupSelect01">
+                <option selected>Opciones...</option>
+                <option>Departamentos.</option>
+                <option>Monoambientes.</option>
+              </select>
+            </div>
+            <div class="input-group mb-3">
+              <label class="input-group-text" for="inputGroupSelect02">Cantidad de Personas.</label>
+              <select class="form-select" id="inputGroupSelect02">
+                <option selected>Opciones...</option>
+                <option value="1">Una.</option>
+                <option value="2">Dos.</option>
+                <option value="3">Tres.</option>
+                <option value="4">Cuatro.</option>
+                <option value="5">Cinco.</option>
+              </select>
+            </div>
+            <div class="input-group mb-3">
+              <label class="input-group-text" for="inputGroupSelect02">Fecha.</label>
+              <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+                <option selected>Mes...</option>
+                <option>Diciembre.</option>
+                <option>Enero.</option>
+                <option>Febrero.</option>
+              </select>
+            </div>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
+              <label for="floatingTextarea2">Dejanos tu Consulta...</label>
+            </div>
+            <div class="vstack gap-2 col-md-5 mx-auto" id="botonEnviar">
+              <button type="button" class="btn bg-Button">Enviar</button>
+              <button type="button" class="btn bg-Button">Cancelar</button>
+            </div>
+          </div>
+        </section>
+      </div>
+      
+      <div class="col-sm-12 col-md-6 col-lg-5 col-xl-4">
+        <section  id="iframe">
+          <h2>Monoambientes</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.302875884585!2d-65.07301598495617!3d-40.79933771843968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95fa331637690169%3A0x9f543c9b8dcca81b!2sCaleta%20Falsa%20350%2C%20R8521%20Las%20Grutas%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1659706574044!5m2!1ses-419!2sar" width="auto" height="auto" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <h2>Departamentos</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.3745200547182!2d-65.07606638495642!3d-40.79776311834343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95fa333e73d4aed5%3A0x146e451af3481226!2sPunta%20Delgado%20820%2C%20Las%20Grutas%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1659707119716!5m2!1ses-419!2sar" width="auto" height="auto" style="border: 1px;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+      </div>
     
-    <header id="iframe" class="header">
-        <h2>Monoambientes</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.302875884585!2d-65.07301598495617!3d-40.79933771843968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95fa331637690169%3A0x9f543c9b8dcca81b!2sCaleta%20Falsa%20350%2C%20R8521%20Las%20Grutas%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1659706574044!5m2!1ses-419!2sar" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <h2>Departamentos</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.3745200547182!2d-65.07606638495642!3d-40.79776311834343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95fa333e73d4aed5%3A0x146e451af3481226!2sPunta%20Delgado%20820%2C%20Las%20Grutas%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1659707119716!5m2!1ses-419!2sar" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </header>
-    <main class="main">
-        <h1>Dejanos tu mensaje.</h1>
-            <form action="envio.php" id="form">
-                <label for="Nombre">Nombre y apellido</label>
-                <input type="text" id="Nombre" placeholder="Nombre">
-                <label for="Teléfono">Número de contacto</label>
-                <input type="number" id="Teléfono" placeholder="Teléfono">
-                <label for="Email">Correo electronico</label>
-                <input type="Email" id="Email" placeholder="Email">
-                <label for="Consultas">Dejanos tu consulta</label>
-                <textarea name="" id="Consultas" cols="30" rows="10"></textarea>
-                <input type="reset" value="Cancelar">
-                <input type="submit" value="Enviar">
-            </form>
-    </main>
-    <aside class="aside">
-        <h2>Datos Personales.</h2>
-            <p>Baldomir Gaston Nahuel.</p>
-            <P>DNI: 381983838</P>
-            <P>Domicilio: 9 de Julio 82-Rojas-Bs.As.-Argentina.</P>
-            <p>Numero de Registro: 8283838191</p>
-    </aside>
-    <div class="div">
-        <img src="imagenes/galeria/cartel.jfif" alt="">
-    </div>
-    <footer class="footer">
+  </main>
+    
+    <footer class="">
         <ul>
             <li><a target="_blank" href="https://www.instagram.com/lasgrutasoficial"><img src="imagenes/logos/instagram.png" alt="logo de instagram."></a></li>
             <li><a target="_blank" href="https://www.facebook.com/alquileresByC"><img src="imagenes/logos/facebook.png" alt="logo de facebook, fondo azul y una letra f en blanco"></a></li>
