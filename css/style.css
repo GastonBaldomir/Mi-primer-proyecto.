@@ -174,7 +174,7 @@ main div img{
     }
     /* main section img{
         margin: 5px; */
-    }
+    
     /* @media screen and (max-width: 770px){
        main section div{
         display: flex;
@@ -185,7 +185,7 @@ main div img{
        
        
     }
-}  
+  
 @media screen and (max-width: 740px){
     .gridClass{
         display: grid;  
@@ -250,7 +250,7 @@ main div img{
         align-items: center;
         justify-items: center;
     }
-
+   
 }
 @media screen and (max-width: 350px){
     h2{
