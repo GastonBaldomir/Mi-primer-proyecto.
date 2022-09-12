@@ -250,6 +250,7 @@ main div img{
         justify-content: center;
     }
     footer ul{
+        display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center; 
