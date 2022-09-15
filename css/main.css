@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css2? family= Montserrat & family= Roboto:wght@300 & display=swap");
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", "sans-serif";
+}
+
+* {
+  margin: 0%;
+}
+
+.bg-Fondo {
+  background: rgb(200, 224, 250);
+  background: linear-gradient(0deg, rgb(200, 224, 250) 0%, rgb(250, 245, 185) 100%);
+}
+
+.transitionNav {
+  background: rgb(130, 195, 231);
+  background: linear-gradient(90deg, rgb(130, 195, 231) 4%, rgb(32, 14, 144) 100%);
+}
+
+.transitionLogo:hover {
+  transform: translateX(25px);
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+@-webkit-keyframes texto {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes texto {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+h1 {
+  -webkit-animation-name: texto;
+          animation-name: texto;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+h2 {
+  -webkit-animation-name: texto;
+          animation-name: texto;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+p {
+  -webkit-animation-name: texto;
+          animation-name: texto;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+iframe {
+  -webkit-animation-name: texto;
+          animation-name: texto;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+}
+
+form {
+  -webkit-animation-name: texto;
+          animation-name: texto;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+}
+
+div div img {
+  -webkit-animation-name: texto;
+          animation-name: texto;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+}
+
+.imagenHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.texto {
+  border-style: double;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.h2Contacto {
+  text-decoration: none;
+  font-size: 25px;
+  padding: 0%;
+}
+
+.bg-Button {
+  background-color: whitesmoke;
+  border: black solid 1px;
+}
+
+.mainSectionIfr {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+
+.headerContacto {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #0e485a;
+          text-decoration-color: #0e485a;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(61, 61, 136);
+  border-bottom: solid black 2px;
+}
+nav a img {
+  width: 14em;
+  height: 9em;
+  border: solid 1.5px black;
+  border-radius: 5%;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: aliceblue;
+  margin: 25px;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+  color: rgb(36, 34, 34);
+}
+
+footer {
+  background-color: #0e485a;
+  border: solid black 2px;
+}
+footer ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+footer ul li img {
+  width: 4rem;
+  height: 4rem;
+  margin: 10px;
+}
+
+header {
+  display: flex;
+}
+header img {
+  width: auto;
+  height: 42rem;
+}
+
+main section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 25px;
+}
+main section div {
+  width: auto;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #0e485a;
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 3.5rem;
+  color: #0e485a;
+  text-align: center;
+  margin: 25px;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 2rem;
+  text-align: center;
+  color: #0e485a;
+  margin: 5px;
+}
+
+#iframe {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  width: auto;
+}
+
+#classContacto {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#formulario {
+  font-size: 15px;
+  margin-top: 45px;
+  flex-wrap: wrap;
+}
+
+#botonEnviar {
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 995px) {
+  #mainContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+    align-items: center;
+  }
+  main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 910px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 880px) {
+  main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 740px) {
+  nav {
+    display: flex;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  #mainContacto {
+    display: flex;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 680px) {
+  #classContacto {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 350px) {
+  h2 {
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 290px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+main div img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+.gridClass {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: repeat(2, 300px);
+  grid-template-areas: "img1 img2 img3 img3" "img4 img2 img5 img6";
+}
+
+#img1 {
+  grid-area: img1;
+}
+
+#img2 {
+  grid-area: img2;
+}
+
+#img3 {
+  grid-area: img3;
+}
+
+#img4 {
+  grid-area: img4;
+}
+
+#img5 {
+  grid-area: img5;
+}
+
+#img6 {
+  grid-area: img6;
+}
+
+@media screen and (max-width: 740px) {
+  .gridClass {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas: "img1 img2" "img3 img4" "img5 img6";
+  }
+}
+@media screen and (max-width: 500px) {
+  .gridClass {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, 300px);
+    grid-template-areas: "img1" "img3" "img5" "img2" "img4" "img6";
+  }
+}/*# sourceMappingURL=main.css.map */

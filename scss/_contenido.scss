@@ -1,0 +1,159 @@
+header{
+    display: flex;
+    img{
+        width: auto;
+        height: 42rem;
+    }
+}
+
+main{
+    section{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 25px;
+        div{
+            width: auto;
+        }
+    } 
+}
+    
+h1{
+    font-size:$fontH1;
+    color:$colorText;
+    text-align: center;
+    margin: 20px;
+}
+h2{
+    font-size:$fontH2;
+    color:$colorText;
+    text-align: center;
+    margin: 25px;
+    text-decoration: underline;
+}
+p{
+    font-size:$fontP;
+    text-align: center;
+    color:$colorText;
+    margin: 5px;
+}
+//ids
+#iframe{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    width: auto;
+ }
+ 
+#classContacto{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+ }
+#formulario{
+    font-size: 15px;
+    margin-top: 45px;
+    flex-wrap: wrap;
+}
+
+#botonEnviar{
+    margin-top: 5px;
+}
+
+
+ //responsive
+ @media screen and (max-width: 995px){
+    #mainContacto{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin: 25px;
+     align-items: center;
+    }
+    main {
+        section{display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 25px;
+            align-items: center;
+        }
+    }
+    
+  }
+ @media screen and (max-width: 910px){
+    nav{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+} 
+@media screen and (max-width: 880px){
+    main{
+        section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    } 
+}
+  
+@media screen and (max-width: 740px){ 
+    nav{
+        display: flex;
+        ul{
+            display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        }
+    }
+    
+    #mainContacto{
+        display: flex;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 680px){
+    #classContacto{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 500px){
+
+    footer{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        ul{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center; 
+        }
+    }
+
+    
+   
+}
+@media screen and (max-width: 350px){
+    h2{
+        margin: 5px;
+    }
+}
+@media screen and (max-width: 290px){
+    h2{
+        font-size: 2.5rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
+
