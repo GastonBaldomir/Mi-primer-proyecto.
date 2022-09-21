@@ -129,6 +129,40 @@ div div img {
           text-decoration-color: #0e485a;
 }
 
+.font-h1 {
+  font-size: 5rem;
+}
+
+.font-h2 {
+  font-size: 3.5rem;
+}
+
+.font-h3 {
+  font-size: 3rem;
+}
+
+.font-P {
+  font-size: 2rem;
+}
+
+.formatTitles, .formatP, .formatH2, .formatH1 {
+  color: #0e485a;
+  text-align: center;
+}
+
+.formatH1 {
+  margin: 20px;
+}
+
+.formatH2 {
+  margin: 25px;
+  text-decoration: underline;
+}
+
+.formatP {
+  margin: 5px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -190,28 +224,6 @@ main section div {
   width: auto;
 }
 
-h1 {
-  font-size: 5rem;
-  color: #0e485a;
-  text-align: center;
-  margin: 20px;
-}
-
-h2 {
-  font-size: 3.5rem;
-  color: #0e485a;
-  text-align: center;
-  margin: 25px;
-  text-decoration: underline;
-}
-
-p {
-  font-size: 2rem;
-  text-align: center;
-  color: #0e485a;
-  margin: 5px;
-}
-
 #iframe {
   display: flex;
   flex-direction: column;
@@ -240,6 +252,14 @@ p {
   margin-top: 5px;
 }
 
+@media screen and (max-width: 1181px) and (min-width: 995px) {
+  .cardsTextH2 {
+    font-size: 2rem;
+  }
+  .cardsTextP {
+    font-size: 1.5rem;
+  }
+}
 @media screen and (max-width: 995px) {
   #mainContacto {
     display: flex;

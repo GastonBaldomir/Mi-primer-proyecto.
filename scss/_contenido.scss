@@ -17,25 +17,7 @@ main{
     } 
 }
     
-h1{
-    font-size:$fontH1;
-    color:$colorText;
-    text-align: center;
-    margin: 20px;
-}
-h2{
-    font-size:$fontH2;
-    color:$colorText;
-    text-align: center;
-    margin: 25px;
-    text-decoration: underline;
-}
-p{
-    font-size:$fontP;
-    text-align: center;
-    color:$colorText;
-    margin: 5px;
-}
+
 //ids
 #iframe{
     display: flex;
@@ -66,6 +48,15 @@ p{
 
 
  //responsive
+ @media screen and (max-width: 1181px)and (min-width: 995px){
+    .cardsTextH2{
+        font-size: 2rem;
+        }
+    .cardsTextP{
+        font-size: 1.5rem;
+    }
+ }
+
  @media screen and (max-width: 995px){
     #mainContacto{
      display: flex;

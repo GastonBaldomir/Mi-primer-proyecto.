@@ -1,0 +1,42 @@
+//mixins
+@mixin footlist ($listStyle, $decoration, $display, $justify){
+    list-style: $listStyle;
+    text-decoration: $decoration;
+    display: $display;
+    justify-content: $justify;
+}
+
+//maps
+$font:
+(
+    h1:$fontH1,
+    h2:$fontH2,
+    h3:$fontH3,
+    P:$fontP,
+);
+@each $name,
+$value in $font {
+    .font-#{$name}{
+        font-size: $value;
+    }
+}
+
+//extend
+
+.formatTitles{
+    color:$colorText;
+    text-align: center;
+}
+.formatH1{
+    @extend.formatTitles;
+    margin: $marginH1;
+}
+.formatH2{
+    @extend.formatTitles;
+    margin: $marginH2;
+    text-decoration: underline;
+}
+.formatP{
+    @extend.formatTitles;
+    margin: $marginP;
+}

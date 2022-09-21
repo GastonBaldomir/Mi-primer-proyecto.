@@ -34,10 +34,7 @@ footer{
     background-color: #0e485a;
     border: $borderSolid;
     ul{
-        list-style: none;
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
+       @include footlist(none,none,flex,center);
         li{
             img{
                 width: 4rem ;
