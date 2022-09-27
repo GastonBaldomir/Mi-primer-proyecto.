@@ -191,6 +191,16 @@ nav ul li a:hover {
   color: rgb(36, 34, 34);
 }
 
+.navbar-toggler {
+  border: solid 2px aliceblue;
+  font-size: 20px;
+}
+
+.navbar-toggler-icon {
+  -webkit-text-decoration-color: aliceblue;
+          text-decoration-color: aliceblue;
+}
+
 footer {
   background-color: #0e485a;
   border: solid black 2px;

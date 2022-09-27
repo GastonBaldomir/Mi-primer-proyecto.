@@ -29,6 +29,13 @@ nav{
         }
     }
 }
+.navbar-toggler{
+    border: solid 2px aliceblue;
+    font-size: 20px;
+}
+.navbar-toggler-icon{
+    text-decoration-color: aliceblue;
+}
 //footer
 footer{
     background-color: #0e485a;
