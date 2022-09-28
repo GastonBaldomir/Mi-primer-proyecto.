@@ -108,9 +108,18 @@ div div img {
   padding: 0%;
 }
 
+.form-control {
+  font-size: 15px;
+}
+
 .bg-Button {
   background-color: whitesmoke;
   border: black solid 1px;
+  margin-top: 3px;
+}
+
+.btn {
+  font-size: 11px;
 }
 
 .mainSectionIfr {
@@ -127,6 +136,24 @@ div div img {
   text-decoration: underline;
   -webkit-text-decoration-color: #0e485a;
           text-decoration-color: #0e485a;
+}
+
+.formulario {
+  font-size: 15px;
+  margin-top: 45px;
+  flex-wrap: wrap;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgError {
+  width: auto;
+  height: 400px;
+  padding-bottom: 9px;
 }
 
 .font-h1 {
@@ -250,16 +277,6 @@ main section div {
   width: auto;
   justify-content: center;
   align-items: center;
-}
-
-#formulario {
-  font-size: 15px;
-  margin-top: 45px;
-  flex-wrap: wrap;
-}
-
-#botonEnviar {
-  margin-top: 5px;
 }
 
 @media screen and (max-width: 1181px) and (min-width: 995px) {

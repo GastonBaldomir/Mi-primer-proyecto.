@@ -92,9 +92,16 @@ background: linear-gradient(90deg, rgba(130,195,231,1) 4%, rgba(32,14,144,1) 100
     font-size: 25px;
     padding: 0%;
  }
+ .form-control{
+    font-size: 15px;
+ }
 .bg-Button{
     background-color: whitesmoke;
     border: black solid 1px;
+    margin-top: 3px;
+}
+.btn{
+    font-size: 11px;   
 }
 .mainSectionIfr{
     display: flex;
@@ -109,3 +116,18 @@ background: linear-gradient(90deg, rgba(130,195,231,1) 4%, rgba(32,14,144,1) 100
     text-decoration: underline;
     text-decoration-color: #0e485a;
  }
+.formulario{
+    font-size: 15px;
+    margin-top: 45px;
+    flex-wrap: wrap;
+}
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgError{
+    width: auto;
+    height:400px;
+    padding-bottom: 9px;
+}
