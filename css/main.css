@@ -358,6 +358,11 @@ main section div {
   h2 {
     margin: 5px;
   }
+  .imgError {
+    width: 240px;
+    height: 400px;
+    padding-bottom: 9px;
+  }
 }
 @media screen and (max-width: 290px) {
   h2 {

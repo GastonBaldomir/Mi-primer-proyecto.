@@ -17,4 +17,9 @@ Construido con: HTML y CSS. Se utilizo Bootstrap y wow-master.
 
 Autor: Baldomir Gaston
 
+Links:
+https://github.com/GastonBaldomir/proyecto/tree/main
+
+https://gastonbaldomir.github.io/proyecto/
+
 
