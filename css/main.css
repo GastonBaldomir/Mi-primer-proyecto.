@@ -368,23 +368,12 @@ main div {
   }
   .fontRespH1 {
     font-size: 3rem;
-    margin: 0px;
   }
   .fontRespH2 {
     font-size: 2.5rem;
-    margin: 0px;
   }
 }
 @media screen and (max-width: 350px) {
-  h2 {
-    font-size: 2.5rem;
-  }
-  h1 {
-    font-size: 3rem;
-  }
-  #ifrMar {
-    margin: 0px;
-  }
   main section {
     display: flex;
     justify-content: space-evenly;
