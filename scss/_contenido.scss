@@ -11,11 +11,13 @@ main{
         display: flex;
         justify-content: space-evenly;
         margin: 25px;
+        }
         div{
             width: auto;
         }
+        
     } 
-}
+
     
 
 //ids
@@ -25,7 +27,6 @@ main{
     flex-wrap: wrap;
     justify-items: center;
     justify-content: center;
-    margin-left: 15px;
     width: auto;
  }
  
@@ -127,7 +128,7 @@ main{
     
    
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 380px){
     h2{
         margin: 5px;
     }
@@ -136,14 +137,40 @@ main{
         height:400px;
         padding-bottom: 9px;
     }
-    
-}
-@media screen and (max-width: 290px){
-    h2{
-        font-size: 2.5rem;
+    .iframe{
+        padding: 0px;
+        margin: 0px;
     }
-    h1{
+    .fontRespH1{
         font-size: 3rem;
+       
     }
+    .fontRespH2{
+        font-size: 2.5rem;
+        
+    }
+}
+@media screen and (max-width: 350px){
+    }
+    main{
+        section{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 25px;
+            }
+            h2{
+                margin: 0px;
+            }
+            iframe{
+                margin: 0px;
+                width: 200px;
+                height: 200px;
+            }
+           
+            div{
+                width: auto;
+            }
+            
+        } 
 }
 
