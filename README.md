@@ -25,4 +25,8 @@ https://gastonbaldomir.github.io/proyecto/
 
 lasgrutasmya.000webhostapp.com
 
+NOTA:
+
+Hay algunos cambios en el responsive de la pagina de contacto, que no se me actualizaron en la pagina del servidor. Cuando entro desde githube, esta perfecto. Pero desde el servidor, por mas que volvi a sobreescribir los archivos no se reflejan los cambios. 
+
 
