@@ -1,0 +1,133 @@
+//reset
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', 'sans-serif';
+    
+}
+*{
+    margin: 0%;
+}
+@import url('https://fonts.googleapis.com/css2? family= Montserrat & family= Roboto:wght@300 & display=swap');
+//fin-reset
+
+//variables
+$borderSolid:solid black 2px;
+$colorWhite:aliceblue;
+$fontH1:5rem;
+$fontH2:3.5rem;
+$fontH3:3rem;
+$fontP:2rem;
+$colorText:#0e485a;
+$marginH1:20px;
+$marginH2:25px;
+$marginP:5px;
+
+//transiciones.
+.bg-Fondo{
+    background: rgb(200,224,250);
+    background: linear-gradient(0deg, rgba(200,224,250,1) 0%, rgba(250,245,185,1) 100%);
+}
+.transitionNav{
+    background: rgb(130,195,231);
+background: linear-gradient(90deg, rgba(130,195,231,1) 4%, rgba(32,14,144,1) 100%);
+}
+
+.transitionLogo:hover{
+    transform: translateX(25px);
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+//animaciones
+@keyframes texto {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+ h1{
+    animation-name: texto;
+    animation-duration: 2s;
+ }
+ h2{
+    animation-name: texto;
+    animation-duration: 3s;
+ }
+ p{
+    animation-name: texto;
+    animation-duration: 4s;
+ }
+ iframe{
+    animation-name: texto;
+    animation-duration: 6s;
+ }
+ form{
+    animation-name: texto;
+    animation-duration: 6s;
+ }
+ div div img{
+    animation-name: texto;
+    animation-duration: 6s;
+ }
+
+ //clases
+.imagenHeader{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    }
+
+.texto{
+    border-style: double;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    }
+    
+.textCenter{
+        text-align: center;
+}
+.h2Contacto{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0%;
+ }
+ .form-control{
+    font-size: 15px;
+ }
+.bg-Button{
+    background-color: whitesmoke;
+    border: black solid 1px;
+    margin-top: 3px;
+}
+.btn{
+    font-size: 11px;   
+}
+.mainSectionIfr{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+.headerContacto{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #0e485a;
+ }
+.formulario{
+    font-size: 15px;
+    margin-top: 45px;
+    flex-wrap: wrap;
+}
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgError{
+    width: auto;
+    height:400px;
+    padding-bottom: 9px;
+}
